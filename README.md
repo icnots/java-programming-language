@@ -1,5 +1,6 @@
 # java-programming-language
 
-Gyakorlatok
+Gyakorlatoki feladatok
 
-* [1. gyakorlat](labs/lab02)
+* [2. gyakorlat](labs/lab02)
+* [3. gyakorlat](labs/lab03)
