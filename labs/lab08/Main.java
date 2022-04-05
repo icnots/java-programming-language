@@ -4,7 +4,7 @@ class Main{
         Parent p = new Parent();
         
         /* referring to protected field: */
-        System.out.println(p.name());
+        System.out.println(p.getName());
         
         System.out.println("c: "+c);
         System.out.println("p: "+p);
@@ -12,24 +12,25 @@ class Main{
         
         
         System.out.println("c simple method:");
-        
+        c.simpleMethod();
         System.out.println();
         System.out.println("p simple method:");
-        
+        p.simpleMethod();
         System.out.println();
-        p = c;
+        /*Parent*/p = /*Child*/c;
         System.out.println("p simple method if it referes to c:");
+        p.simpleMethod();
         
         System.out.println();
         
         
         System.out.println("Child static method:");
-        
+        Child.staticMethod();
         System.out.println("");
         
         
         System.out.println("Parent static method:");
-        
+        Parent.staticMethod();
     }
 
 }
