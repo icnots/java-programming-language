@@ -2,12 +2,15 @@ class Child extends Parent{
     
     Child(){
         this( "Peter" );
+        System.out.println("Child() constructor is running");
     }
     Child( String name ){
         super( name );
+        System.out.println("Child(String) constructor is running");
         this.age = 18;
     }
     Child( String name, int age ){
+        System.out.println("Child(String, int) constructor is running");
         this.name = name;
         this.age = age;
     }

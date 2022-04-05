@@ -31,6 +31,9 @@ class Main{
         
         System.out.println("Parent static method:");
         Parent.staticMethod();
+        
+        System.out.println("constructing child with parameters:");
+        Child c2 = new Child("Ferenc", 26);
     }
 
 }

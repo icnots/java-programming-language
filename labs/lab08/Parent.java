@@ -1,15 +1,18 @@
 class Parent{
     protected String name;
     int age;
-    Parent(){
+    protected Parent(){
+        System.out.println("Parent() constructor is running");
         name = "Default Name";
         age = 40;
     }
     Parent( String name ){
+        System.out.println("Parent(String) constructor is running");
         this.name = name;
         this.age = 40;
     }
     Parent( String name, int age ){
+        System.out.println("Parent(String, int) constructor is running");
         this.name = name;
         this.age = age;
     }
