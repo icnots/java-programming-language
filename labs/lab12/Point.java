@@ -2,7 +2,7 @@ import java.util.Objects;
 import java.util.Iterator;
 
 class Sarkany{}
-class Point implements Comparable, Iterable<Integer>{
+class Point implements Comparable<Point>, Iterable<Integer>{
     public static void main(String[] args){
         Point p = new Point();
         p.x = 1;
@@ -59,12 +59,12 @@ class Point implements Comparable, Iterable<Integer>{
     
     // this - that értékét adja vissza
     @Override
-    public int compareTo(Object thatO){
-        if (thatO.getClass() != this.getClass()){
-            throw new IllegalArgumentException();
+    public int compareTo(Point that){        
+        if (this.x == that.x){
+            return this.y - that.y;
+        }else{
+            return this.x - that.x;
         }
-        Point that = (Point)thatO;
-        return this.x - that.x;
     }
     
     @Override
