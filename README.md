@@ -7,4 +7,5 @@
 * [2. gyakorlat](labs/02.md)
 * [3. gyakorlat](labs/03.md)
 * [4. gyakorlat](labs/04.md)
+* [5. gyakorlat](labs/04.md)
 
