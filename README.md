@@ -10,4 +10,4 @@
 * [5. gyakorlat](labs/04.md)
 * [6. gyakorlat](labs/06.md)
 * [7. gyakorlat](labs/07.md)
-
+* [8. gyakorlat](labs/08.md)
