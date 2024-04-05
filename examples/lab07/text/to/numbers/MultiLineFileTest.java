@@ -19,6 +19,9 @@ public class MultiLineFileTest{
             fail();
         } catch (IOException e) {
             // the test is succesful
+        } catch (Exception e) {
+            // any other exception
+            fail();
         }
     }
 
@@ -28,6 +31,9 @@ public class MultiLineFileTest{
             int val = MultiLineFile.addNumbers("emptyFile.txt", ' ');
             assertEquals(0, val);
         } catch (IOException e){
+            fail();
+        } catch (Exception e) {
+            // any other exception
             fail();
         }
     }
@@ -39,6 +45,9 @@ public class MultiLineFileTest{
             assertEquals(-117, sum);
         } catch (IOException e){
             fail();
+        } catch (Exception e) {
+            // any other exception
+            fail();
         }
     }
 
@@ -49,6 +58,9 @@ public class MultiLineFileTest{
             assertEquals(55, sum);
         } catch (IOException e){
             fail();
+        } catch (Exception e) {
+            // any other exception
+            fail();
         }
     }
 
@@ -58,6 +70,9 @@ public class MultiLineFileTest{
             int sum = MultiLineFile.addNumbers("multiLineComma.txt", ',');
             assertEquals(55, sum);
         } catch (IOException e){
+            fail();
+        } catch (Exception e) {
+            // any other exception
             fail();
         }
     }

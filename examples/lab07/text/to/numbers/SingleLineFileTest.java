@@ -19,6 +19,9 @@ public class SingleLineFileTest{
             fail();
         } catch (IOException e) {
             // the test is succesful
+        } catch (Exception e) {
+            // any other exceptions
+            fail();
         }
     }
 
@@ -31,6 +34,9 @@ public class SingleLineFileTest{
             assertEquals("Empty file", e.getMessage());
         } catch (IOException e){
             fail();
+        } catch (Exception e) {
+            // any other exceptions
+            fail();
         }
     }
 
@@ -40,6 +46,9 @@ public class SingleLineFileTest{
             int sum = SingleLineFile.addNumbers("numbers.txt");
             assertEquals(-117, sum);
         } catch (IOException e){
+            fail();
+        } catch (Exception e) {
+            // any other exceptions
             fail();
         }
     }
