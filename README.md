@@ -1,6 +1,10 @@
 
 # Programozási nyelvek - Java gyakorlat 2023/2024/2. félév
 
+## Java dokumentáció:
+
+* [https://docs.oracle.com/en/java/javase/21/docs/api/index.html](https://docs.oracle.com/en/java/javase/21/docs/api/index.html)
+
 ## Feladatsorok:
 
 * [1. gyakorlat](labs/01.md)
