@@ -3,7 +3,7 @@
 
 ## Java dokumentáció:
 
-* [https://docs.oracle.com/en/java/javase/21/docs/api/index.html](https://docs.oracle.com/en/java/javase/21/docs/api/index.html)
+* [Java 21 Docs](https://docs.oracle.com/en/java/javase/21/docs/api/index.html)
 
 ## Feladatsorok:
 
