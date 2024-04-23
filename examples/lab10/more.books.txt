@@ -1,0 +1,4 @@
+Book--John Steinbeck: Of Mice and Men; 107
+Book--abcd: ABCD; 123
+EBook--EBook(abcd: ABCD; 123, 356.99$)
+PrintedBook--abcd: ABCD; 129 (HARDCOVER)
