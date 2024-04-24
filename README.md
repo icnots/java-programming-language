@@ -16,3 +16,4 @@
 * [7. gyakorlat](labs/07.md)
 * [8. gyakorlat](labs/08.md)
 * [9. gyakorlat](labs/09.md)
+* [10. gyakorlat](labs/10.md)
