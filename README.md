@@ -1,5 +1,5 @@
 
-# Programozási nyelvek - Java gyakorlat 2023/2024/2. félév
+# Programozási nyelvek - Java gyakorlat 2024/2025/2. félév
 
 ## Java dokumentáció:
 
@@ -7,15 +7,7 @@
 
 ## Feladatsorok:
 
-* [1. gyakorlat](labs/01.md)
-* [2. gyakorlat](labs/02.md)
-* [3. gyakorlat](labs/03.md)
-* [4. gyakorlat](labs/04.md)
-* [5. gyakorlat](labs/04.md)
-* [6. gyakorlat](labs/06.md)
-* [7. gyakorlat](labs/07.md)
-* [8. gyakorlat](labs/08.md)
-* [9. gyakorlat](labs/09.md)
-* [10. gyakorlat](labs/10.md)
-* [11. gyakorlat](labs/11.md)
-* [12. gyakorlat](labs/12.md)
+* [1. gyakorlat](exercises/lab01-main-consoleio.md)
+  * Java alapok,
+  * `main` függvény,
+  * futtatás konzolból.
