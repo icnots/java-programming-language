@@ -181,8 +181,8 @@ legkisebb értéket a kapott téglalapok bal alsó csúcsának x-koordinátái k
 
 ### Példakód a Demo feladathoz:
 
+`Point.java` fájl tartalma:
 ~~~{.java}
-// Point.java
 public class Point {
     private double x, y;
     
@@ -209,8 +209,8 @@ public class Point {
 }
 ~~~
 
+`PointMain.java` fájl tartalma:
 ~~~{.java}
-// PointMain.java
 public class PointMain {
     public static void main(String[] args){
         Point p1 = new Point(1.0, 2.0);
