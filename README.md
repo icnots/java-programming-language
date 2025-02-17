@@ -11,3 +11,8 @@
   * Java alapok,
   * `main` függvény,
   * futtatás konzolból.
+  
+* [2. gyakorlat](exercises/lab02-oop.md)
+  * Objektum orientáltság
+  * Konstruktor
+  * Példányszintű függvények
