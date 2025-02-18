@@ -7,6 +7,7 @@
 Készítsen egy `Point` osztályt `double` típusú `x` és `y` mezőkkel.
 Írja meg a `move(dx,dy)` műveletet, mellyel egy pontot el lehet tolni `dx` és `dy` koordinátákkal,
 valamint a `mirror(cx,cy)` műveletet, mely egy `cx` és `cy` koordinátájú pontra való tükrözést valósít meg.
+Írjunk `abs` függvényt az adott pont origótól való távolságának kiszámítására.
 
 Készítsen `PointMain` néven Java programot, amelyben bemutatja a `Point` osztály használatát.
 
@@ -44,6 +45,8 @@ alpha.add(beta)
 // alpha.re == 4 && alpha.im == 4 && beta.re == 1 && beta.im == 2
 ~~~
 
+Segítség: négyzetgyök számításához használjuk a `Math.sqrt(...)` függvényt.
+
 ### 4. feladat
 
 Készítsen `Circle` néven kört reprezentáló osztályt. Egy körnek van
@@ -62,6 +65,7 @@ minden pontnál elöl az `x`, utána az `y` koordináta (ezek is szóközzel
 elválasztva).
 
 Feltételezhetjük, hogy páros számú paraméter van, amelyek mind egész számok.
+A `String` típust `double` típusra a `Double.parseDouble(...)` függvénnyel parse-olhatjuk át.
 
 A program a `Point` osztály felhasználásával számítsa ki és adja össze az
 egymás mellett lévő pontok távolságát (pl. 3 pont esetén az 1. és a 2.
