@@ -203,8 +203,12 @@ public class Point {
         this.y = 2*cy - this.y;
     }
     
-    public void printData(){
-        System.out.println("(" + x + "," + y + ")");
+    public double abs(){
+        return Math.sqrt(x*x+y+y);
+    }
+    
+    public String toString(){
+        return "(" + x + "," + y + ")";
     }
 }
 ~~~
@@ -215,15 +219,15 @@ public class PointMain {
     public static void main(String[] args){
         Point p1 = new Point(1.0, 2.0);
         
-        p1.printData();
+        System.out.println(p1.toString());
         
         p1.move(0.0, 1.0);
         
-        p1.printData();
+        System.out.println(p1.toString());
         
         p1.mirror(2.0, 1.1);
         
-        p1.printData();
+        System.out.println(p1);
     }
 }
 ~~~

@@ -18,7 +18,11 @@ public class Point {
         this.y = 2*cy - this.y;
     }
     
-    public void printData(){
-        System.out.println("(" + x + "," + y + ")");
+    public double abs(){
+        return Math.sqrt(x*x+y+y);
+    }
+    
+    public String toString(){
+        return "(" + x + "," + y + ")";
     }
 }
