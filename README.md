@@ -16,3 +16,8 @@
   * Objektum orientáltság
   * Konstruktor
   * Példányszintű függvények
+  
+* [3. gyakorlat](exercises/lab03-package.md)
+  * Csomagkezelés
+  * Láthatóság
+
