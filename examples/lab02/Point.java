@@ -31,8 +31,10 @@ public class Point {
         double dx = this.x - that.x;
         double dy = this.y - that.y;
         
-        // egy ötlet:
-        return new Point(dx, dy).abs();
+        // egy ötlet (de memóriaigényes)
+        //return new Point(dx, dy).abs();
+
+        return Math.sqrt(dx * dx + dy * dy);
     }
     
     public String toString(){
