@@ -21,12 +21,12 @@ Szervezze az előző órai `Point` osztályt és az azt bemutató `PointMain` f�
 Kísérletezzünk egy kicsit az osztályok láthatóságával.
 A `Point` osztály váljon láthatóvá más csomagokból is.
 
-a.  Az `AnotherMain` most már valóban készítsen `Point` példányokat, két módon.
-    i. A teljesen minősített neve használatával.
-    i. Egy `import` segítségével.
-a.  Készítse el a `PointMainInDefaultPackage` osztályt a névtelen csomagban.
-    - Ebből használható-e a `Point`: készíthető-e `Point` példány a `PointMainInDefaultPackage` osztályban?
-    - Megfordítva: ez az osztály használható-e a `Point` osztályból?
+*  Az `AnotherMain` most már valóban készítsen `Point` példányokat, két módon.
+  * A teljesen minősített neve használatával.
+  * Egy `import` segítségével.
+*  Készítse el a `PointMainInDefaultPackage` osztályt a névtelen csomagban.
+  * Ebből használható-e a `Point`: készíthető-e `Point` példány a `PointMainInDefaultPackage` osztályban?
+  * Megfordítva: ez az osztály használható-e a `Point` osztályból?
 
 
 ### 2. feladat
@@ -35,48 +35,48 @@ Készítsen `plane.PublicCircle` osztályt, amellyel egy síkbeli kört reprezen
 Egy körnek van középpontja, `double` típusú `x`, `y` adattagja, amelyeket inicializáljunk `0.0`-ra, illetve `double` típusú sugara (`radius`), amelyet inicializáljunk `1.0`-re.
 Az adattagok legyenek publikusak benne.
 
-a.  Írjon `getArea()` metódust, amely ismét a kör területével térjen vissza.
-    i.  A `plane.but.not.flying.CircleMain.main` metódus a következőket tegye.
-        -   Példányosítson egy `PublicCircle` objektumot.
-        -   Írja ki a területét.
-        -   Állítsa be a középpontját `(5, 2)`-re, sugarát `10.0`-re.
-        -   Írja ki újra a területét.
-a.  Készítsen az előzőhöz hasonló `plane.Circle` osztályt, de ebben az adattagokhoz csak megfelelően megírt getter és setter metódus férhessen hozzá.
-    i. Az utóbbi váltson ki egy `IllegalArgumentException` kivételt, ha a sugara `0.0` vagy negatív szám lenne.
-    i. A `CircleMain.main` próbálja ki az új funkcionalitást.
-        - A kivételt nem kell elkapni, azzal az anyag későbbi részén foglalkozunk.
-a.  A `Circle` osztályhoz készítsünk konstruktort, az adattagok beállítását ezzel végezzük.
-    i. A konstruktor a setterhez hasonlóan válthasson ki kivételt.
-    i. A `CircleMain.main` próbálja ki az új funkcionalitást.
+* Írjon `getArea()` metódust, amely ismét a kör területével térjen vissza.
+* A `plane.but.not.flying.CircleMain.main` metódus a következőket tegye.
+  -   Példányosítson egy `PublicCircle` objektumot.
+  -   Írja ki a területét.
+  -   Állítsa be a középpontját `(5, 2)`-re, sugarát `10.0`-re.
+  -   Írja ki újra a területét.
+* Készítsen az előzőhöz hasonló `plane.Circle` osztályt, de ebben az adattagokhoz csak megfelelően megírt getter és setter metódus férhessen hozzá.
+  * Az utóbbi váltson ki egy `IllegalArgumentException` kivételt, ha a sugara `0.0` vagy negatív szám lenne.
+  * A `CircleMain.main` próbálja ki az új funkcionalitást.
+    - A kivételt nem kell elkapni, azzal az anyag későbbi részén foglalkozunk.
+* A `Circle` osztályhoz készítsünk konstruktort, az adattagok beállítását ezzel végezzük.
+  * A konstruktor a setterhez hasonlóan válthasson ki kivételt.
+  * A `CircleMain.main` próbálja ki az új funkcionalitást.
 
 
 ### 3. feladat
 
 Készítsen `string.utils.IterLetter` osztályt.
 
-a.  Ennek a konstruktora `String` paraméterű.
-    -   Ha ez `null`, váltson ki `IllegalArgumentException` kivételt.
-a.  Az osztálynak legyen egy `printNext()` metódusa.
-    -   Ez egy új sorban írja ki a szöveg első karakterét, majd újabb hívásra a második karakterét és így tovább.
-    -   Ha a szöveg összes karakterét kiírtuk a képernyőre, akkor a metódus egy üres sort ír ki minden további hívásra.
-a.  Készítse el a következő, főprogramot tartalmazó osztályokat: `Main` (a névtelen csomagban), `stringmain.Main`, `string.main.Main`, `string.utils.Main` és `string.utils.main.Main`.
-    -   Ezek közül egy kivételével mindegyiknek az a feladata, hogy áthívjon egy másik `main`re.
+* Ennek a konstruktora `String` paraméterű.
+  -   Ha ez `null`, váltson ki `IllegalArgumentException` kivételt.
+* Az osztálynak legyen egy `printNext()` metódusa.
+  -   Ez egy új sorban írja ki a szöveg első karakterét, majd újabb hívásra a második karakterét és így tovább.
+  -   Ha a szöveg összes karakterét kiírtuk a képernyőre, akkor a metódus egy üres sort ír ki minden további hívásra.
+* Készítse el a következő, főprogramot tartalmazó osztályokat: `Main` (a névtelen csomagban), `stringmain.Main`, `string.main.Main`, `string.utils.Main` és `string.utils.main.Main`.
+  -   Ezek közül egy kivételével mindegyiknek az a feladata, hogy áthívjon egy másik `main`re.
         Tehát egy négy hosszú híváslánc alakul ki.
-        - A sorrend szabadon megválasztható.
-        - Tipp: az `X` osztály `y` (osztályszintű) metódusát így lehet meghívni: `X.y(...)`.
-            - Milyen formában kell most `X` nevét használni?
-        - Hányfajta sorrend létezik?
-        - Néhány sorrend érvénytelen. Melyek? Miért?
-    -   Az utoljára érintett főprogram két parancssori paramétert kap meg.
+  - A sorrend szabadon megválasztható.
+  - Tipp: az `X` osztály `y` (osztályszintű) metódusát így lehet meghívni: `X.y(...)`.
+  - Milyen formában kell most `X` nevét használni?
+  - Hányfajta sorrend létezik?
+  - Néhány sorrend érvénytelen. Melyek? Miért?
+  -   Az utoljára érintett főprogram két parancssori paramétert kap meg.
         A kód a `printNext` metódust annyiszor hívja meg a második paraméter szövegével, amennyi az első paraméterben kapott szám értéke.
-    -   Futtassa mindegyik főprogramot.
+  -   Futtassa mindegyik főprogramot.
         Paraméterként válasszon különféle szövegeket, az üreset is (ez `""` alakban adható át).
-a.  Az `IterLetter` `reset()` metódusa újrakezdi a szöveg végigjárását.
-    -   Tehát a soron következő `printNext` hívások az első karaktertől folytatják a kiírásokat.
-    -   A főprogramok egyszer hívják meg ezt a metódust `m` kiírás után, és még `k` kiírást tegyenek meg.
+* Az `IterLetter` `reset()` metódusa újrakezdi a szöveg végigjárását.
+  -   Tehát a soron következő `printNext` hívások az első karaktertől folytatják a kiírásokat.
+  -   A főprogramok egyszer hívják meg ezt a metódust `m` kiírás után, és még `k` kiírást tegyenek meg.
         Itt `m` és `k` a harmadik és negyedik parancssori paraméter.
-a.  Legyen az osztályban egy `hasNext()` metódus is. Ez pontosan akkor tér vissza igaz értékkel, ha van még kiírható betű.
-    -   A főprogramok hívják ezt meg az újrakezdés előtt és után, valamint közvetlenül a program befejeződése előtt.
+* Legyen az osztályban egy `hasNext()` metódus is. Ez pontosan akkor tér vissza igaz értékkel, ha van még kiírható betű.
+  -   A főprogramok hívják ezt meg az újrakezdés előtt és után, valamint közvetlenül a program befejeződése előtt.
 
 
 ## Gyakorló feladatok
@@ -85,70 +85,68 @@ a.  Legyen az osztályban egy `hasNext()` metódus is. Ez pontosan akkor tér vi
 
 A `zoo.animal.Panda` osztály egy pandát reprezentál.
 
-a.  Az osztály a panda nevének, életkorának és tartózkodási országának eltárolására alkalmas.
+* Az osztály a panda nevének, életkorának és tartózkodási országának eltárolására alkalmas.
     Ehhez értelemszerű típusú és nevű adattagokat kell használni.
-a.  Az osztálynak két konstruktora van.
-    i.  Az első egy újszülött pandát ír le: megkapja és eltárolja a másik két adatát.
-    i.  A másik konstruktor a név kivételével kapja meg az adatokat.
+* Az osztálynak két konstruktora van.
+  * Az első egy újszülött pandát ír le: megkapja és eltárolja a másik két adatát.
+  * A másik konstruktor a név kivételével kapja meg az adatokat.
         Ennek a pandának az legyen a neve, hogy `Y years old foundling from C`, ahol `Y` és `C` helyén az életkor és az ország szerepel.
-a.  Az osztály rendelkezik egy `happyBirthday()` metódussal is.
+* Az osztály rendelkezik egy `happyBirthday()` metódussal is.
     Ez kiírja a panda nevét, országát és az eggyel megnövekedett életkorát is.
     A metódus egy számot is kap paraméterül (`limitYear`),
     amennyiben az életkor ezt meghaladja,
     akkor a pandát visszaköltöztetik a Kínai Népköztársaságba.
-a.  A `zoo.keeper.Crikey` főprogramja próbálja ki a fentieket.
+* A `zoo.keeper.Crikey` főprogramja próbálja ki a fentieket.
 
 ### 2. gyakorló feladat
 
 Bővítse a `string.utils` csomagot a `string.utils.IterWord` osztállyal.
 
-a.  Az osztály konstruáláskor egy szöveget kap meg.
-a.  Az osztály `printNext()` metódusa új sorban a képernyőre írja a szöveg következő szavát.
-a.  Az osztálynak szintén legyen `reset()` és `hasNext()` metódusa.
-a.  A már létező főprogramok mellé kerüljön egy-egy `WordMain`, amely bemutatja az osztály használatát.
+* Az osztály konstruáláskor egy szöveget kap meg.
+* Az osztály `printNext()` metódusa új sorban a képernyőre írja a szöveg következő szavát.
+* Az osztálynak szintén legyen `reset()` és `hasNext()` metódusa.
+* A már létező főprogramok mellé kerüljön egy-egy `WordMain`, amely bemutatja az osztály használatát.
 
 ### 3. gyakorló feladat
 
 Készítse el a `magic.library.Incantation` osztályt, amely egy varázslatos ráolvasást ábrázol.
 Ez egy `text` szöveges és egy `index` egész szám adatot tárol.
 
-a.  Az osztály egyik konstruktora átveszi és beállítja a két paraméter értékét.
-    -   Ha az előbbi `null`, váltson ki `IllegalArgumentException` kivételt.
-a.  A másik konstruktor egy `Incantation` példányt kap meg, és ennek az adattagjaiból tölti fel a sajátokat.
-a.  Legyen mindkét adattagnak gettere, az `index`nek settere is.
-a.  Az osztály `enchant()` metódusa egy `Incantation` példányt (`otherInc`) kap meg és egy `isPrepend` logikai értéket.
+* Az osztály egyik konstruktora átveszi és beállítja a két paraméter értékét.
+  -   Ha az előbbi `null`, váltson ki `IllegalArgumentException` kivételt.
+* A másik konstruktor egy `Incantation` példányt kap meg, és ennek az adattagjaiból tölti fel a sajátokat.
+* Legyen mindkét adattagnak gettere, az `index`nek settere is.
+* Az osztály `enchant()` metódusa egy `Incantation` példányt (`otherInc`) kap meg és egy `isPrepend` logikai értéket.
     A metódus az alábbiak szerint módosítja a hívott példány szövegét.
-    i.  Először megpróbáljuk felvenni a `text` szöveg `index`edik szavát.
-        - Ha például `index` értéke `3`, akkor a harmadik szóról van szó.
-        - Tipp: a `String` osztály `split` metódusát érdemes használni.
-    i.  Ha nincsen ilyen szó, mert `index` túl magas vagy alacsony (akár negatív is lehet),
+  *  Először megpróbáljuk felvenni a `text` szöveg `index`edik szavát.
+    - Ha például `index` értéke `3`, akkor a harmadik szóról van szó.
+    - Tipp: a `String` osztály `split` metódusát érdemes használni.
+  * Ha nincsen ilyen szó, mert `index` túl magas vagy alacsony (akár negatív is lehet),
             a metódus hamis visszatérési értéket ad.
-    i.  A felvett szót `otherInc` szövege elé írjuk, ha `isPrepend` értéke igaz, és mögé, ha hamis.
-        -   Egy szóköz is kerüljön a régi szöveg és az új szó közé.
-    i.  Az `index` adattag eggyel megnő/lecsökken `isPrepend` értékétől függően.
-    i.  A metódus igazzal tér vissza, jelezve, hogy a szöveg megváltozott.
-a.  A `magic.Soliloquy` osztály `reciteIncantations()` metódusát a főprogram fogja hívni, és a következőket teszi.
-    i.  Két `Incantation` példányt kap meg (`inc1` és `inc2`), valamint egy `idx` egész és egy `startWithAppend` logikai értéket.
-    i.  Háromszor hívja meg az `inc1` példányra az `enchant` metódust.
-        Az első paraméter mindegyik esetben `inc2`.
-        -   A második paraméter az első hívásban `startWithAppend` ellentéte.
-        -   A másodikban `startWithAppend`.
-        -   Harmadjára `true`.
-    i.  Mindegyik hívás után írja ki a kifejezés visszatérési értékét és mindkét objektum adatait.
-        -   Ez utóbbiakat a getterek segítségével lehet elérni.
-        -   A formátumhoz lásd a lenti példát.
-        -   A kiírás kódja a `printStatus` segédfüggvénybe kerüljön.
-    i.  Az első kiírás után `inc1` `index` adattagjának értéke álljon `idx`re.
-a.  A `magic.Soliloquy` osztályban levő főprogram hat parancssori paramétert vár (`argN` lentebb) és a következőket teszi.
-    i.  Feltehető, hogy a paraméterek száma és tartalma megfelelő, nem kell ellenőrizni.
-    i.  A főprogram elkészíti az `inc1`, `inc2` és `inc3` `Incantation` példányokat.
-        Az első kettő tartalmát az első négy parancssori paraméter értékei alapján inicializálja, a harmadikat pedig a másodikból.
-        -   Az első és harmadik parancssori paramétert idézőjellel (`"`) kell majd körbevenni, mert szóközöket tartalmaznak.
-    i.  Ezután a következőket teszi.
-        -   Meghívja a `reciteIncantations` segédfüggvényt az `inc1, inc2, arg5, true` paraméterekkel.
-        -   Beállítja `inc1` `index`ét `arg6` értékre.
-        -   Meghívja a `reciteIncantations` segédfüggvényt az `inc1, inc3, arg5, false` paraméterekkel.
-a.  Kipróbálás: a főprogram kapja meg a következő paramétereket: `programming is a creative activity`, `4`, `to be or not to be`, `-123`, `1`.
+  * A felvett szót `otherInc` szövege elé írjuk, ha `isPrepend` értéke igaz, és mögé, ha hamis.
+    -   Egy szóköz is kerüljön a régi szöveg és az új szó közé.
+  * Az `index` adattag eggyel megnő/lecsökken `isPrepend` értékétől függően.
+  * A metódus igazzal tér vissza, jelezve, hogy a szöveg megváltozott.
+* A `magic.Soliloquy` osztály `reciteIncantations()` metódusát a főprogram fogja hívni, és a következőket teszi.
+  * Két `Incantation` példányt kap meg (`inc1` és `inc2`), valamint egy `idx` egész és egy `startWithAppend` logikai értéket.
+  * Háromszor hívja meg az `inc1` példányra az `enchant` metódust. Az első paraméter mindegyik esetben `inc2`.
+    -   A második paraméter az első hívásban `startWithAppend` ellentéte.
+    -   A másodikban `startWithAppend`.
+    -   Harmadjára `true`.
+  * Mindegyik hívás után írja ki a kifejezés visszatérési értékét és mindkét objektum adatait.
+    -   Ez utóbbiakat a getterek segítségével lehet elérni.
+    -   A formátumhoz lásd a lenti példát.
+    -   A kiírás kódja a `printStatus` segédfüggvénybe kerüljön.
+  * Az első kiírás után `inc1` `index` adattagjának értéke álljon `idx`re.
+* A `magic.Soliloquy` osztályban levő főprogram hat parancssori paramétert vár (`argN` lentebb) és a következőket teszi.
+  * Feltehető, hogy a paraméterek száma és tartalma megfelelő, nem kell ellenőrizni.
+  * A főprogram elkészíti az `inc1`, `inc2` és `inc3` `Incantation` példányokat. Az első kettő tartalmát az első négy parancssori paraméter értékei alapján inicializálja, a harmadikat pedig a másodikból.
+    -   Az első és harmadik parancssori paramétert idézőjellel (`"`) kell majd körbevenni, mert szóközöket tartalmaznak.
+  * Ezután a következőket teszi.
+    -   Meghívja a `reciteIncantations` segédfüggvényt az `inc1, inc2, arg5, true` paraméterekkel.
+    -   Beállítja `inc1` `index`ét `arg6` értékre.
+    -   Meghívja a `reciteIncantations` segédfüggvényt az `inc1, inc3, arg5, false` paraméterekkel.
+* Kipróbálás: a főprogram kapja meg a következő paramétereket: `programming is a creative activity`, `4`, `to be or not to be`, `-123`, `1`.
     Ennek hatására a kiírások legyenek az alábbiak.
 
 ```
