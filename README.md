@@ -20,4 +20,5 @@
 * [3. gyakorlat](exercises/lab03-package.md)
   * Csomagkezelés
   * Láthatóság
+  * Kivétel kiváltása
 

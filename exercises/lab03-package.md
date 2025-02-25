@@ -35,7 +35,7 @@ Készítsen `plane.PublicCircle` osztályt, amellyel egy síkbeli kört reprezen
 Egy körnek van középpontja, `double` típusú `x`, `y` adattagja, amelyeket inicializáljunk `0.0`-ra, illetve `double` típusú sugara (`radius`), amelyet inicializáljunk `1.0`-re.
 Az adattagok legyenek publikusak benne.
 
-* Írjon `getArea()` metódust, amely ismét a kör területével térjen vissza.
+* Írjon `getArea()` metódust, amely ismét a kör területével térjen vissza (használható a `Math.PI` konstans).
 * A `plane.but.not.flying.CircleMain.main` metódus a következőket tegye.
   -   Példányosítson egy `PublicCircle` objektumot.
   -   Írja ki a területét.
