@@ -6,6 +6,8 @@
 Szervezze az előző órai `Point` osztályt és az azt bemutató `PointMain` főprogramot a `point2d` csomagba.
 
 1.  A `Point` osztály ne látszódjon ki a csomagból: ne legyen publikus.
+1.  Legyen paraméter nélküli konstruktora is, amely defaultként 0-kat állít be.
+1.  Hozzon létre getter és setter metódusokat az adattagok megváltoztatására. Amennyiben a paraméterül kapott érték 1000000-nál nagyobb, akkor váltson ki `IllegalArgumentException`-t.
 1.  Készítse el a `pointless.AnotherMain` osztályt.
     Ez a `pointless` csomag `AnotherMain` osztálya lesz.
     A megfelelő fájl: `pointless/AnotherMain.java`.
