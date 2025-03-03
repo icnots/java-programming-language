@@ -8,21 +8,21 @@ Feltesszük, hogy az `n` bemenet kis, pozitív szám.
 Teszteljük a következőképpen.
 
 - A metódus kapjon `static` minősítőt. Erről a kulcsszóról részletesebben később lesz szó.
-- A mellékelt `famous.sequence.FibonacciStructureTest` használata.
+- A mellékelt `famous.sequence.FibonacciStructureTest` használata. (A test file itt található: [FibonacciStructureTest.java](../tests/lab04-05/FibonacciStructureTest.java))
     - Ezt a csomagjának megfelelő könyvtárba kell elhelyezni.
-    - Ez a `CheckThat` eszközt használja, aminek szintén elérhetőnek kell lennie.
+    - Ez a `CheckThat` eszközt használja, aminek szintén elérhetőnek kell lennie. (Teams csoport general channel-jének fájl menüpontjában található zipben van. A `CheckThat.txt` tartalmát érdemes átolvasni!)
     - Fordítás és futtatás. A parancsokat lásd a demó `zip` fájlban.
         - Először a `FibonacciStructureTest` osztályt fordítsuk.
         - Most a `Fibonacci.java` osztályt külön paranccsal kell lefordítani, mert a tesztelő nem hivatkozik rá közvetlenül, és így az előző fordításban a `javac` nem keresi meg.
         - Futtassuk a teszteket.
-- Készítsünk `famous.sequence.FibonacciTest` tesztelőt.
+- Készítsünk `famous.sequence.FibonacciTest` tesztelőt. (Ezt mindenkinek magának kell létrehoznia!)
     - Ebben legyen teszt néhány konkrét `n` értékre.
     - Próbáljuk ki a paraméterezett tesztelést is.
     - Fordítás és futtatás.
         - A folyamat jobb megértése érdekében töröljük le a korábban elkészült összes `.class` fájlt. (A `.java` fájlok maradjanak meg!)
         - Fordítsuk le a `FibonacciTest` kódját. Ez a `Fibonacci.java` fájlt is megtalálja és lefordítja.
         - Futtassuk a teszteket.
-- A mellékelt `famous.sequence.FibonacciTestSuite` használata.
+- A mellékelt `famous.sequence.FibonacciTestSuite` használata. (Fájl megtalálható itt: [FibonacciTestSuite.java](../tests/lab04-05/FibonacciTestSuite.java)
     - Ezt is a csomagjának megfelelő könyvtárba kell elhelyezni.
     - Ismét töröljük le a korábban elkészült összes `.class` fájlt.
     - Fordítsuk le a `FibonacciTestSuite` kódját. Ezúttal `Fibonacci.java` és a két korábbi tesztelő is lefordul.
@@ -31,6 +31,8 @@ Teszteljük a következőképpen.
 
 ## Feladatok
 
+
+Structure tesztek és TestSuite fájlok megtalálhatóak itt: [Teszt könyvtár](../tests/lab04-05).
 
 ### 1. feladat
 
