@@ -21,4 +21,8 @@
   * Csomagkezelés
   * Láthatóság
   * Kivétel kiváltása
+ 
+* [4. gyakorlat](exercises/lab04-05-junit.md)
+  * Java Unittesztelés
+  * `CheckThat` környezet használata
 
