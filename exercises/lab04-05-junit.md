@@ -202,3 +202,12 @@ Fejlesszük tovább a `power()` függvényt úgy, hogy negatív egész kitevőve
 Próbálja ki, hogy az **a** feladatban megírt unit tesztek továbbra is sikeresen lefutnak-e.
 
 Bővítse a unit teszteket negatív kitevő helyességét ellenőrző esetekkel.
+
+## Gyakori hibák a CheckThat használatakor
+* Rossz könyvtárban állsz! => A program gyökerében kell állnia.
+* Hiányzanak a jar fájlok. Összesen 3 jar fájlra van szükség (`checkagent.jar`, `checkthat.jar` és a `junit5all.jar`).
+* Első paraméter fájl , tehát `'/'` karakter legyen benne, a második minősített név, így `'.'` legyen benne.
+* Rossz package-be vannak rakva. Ha a tesztfájl rosszul van package-elve, nyugodtan írd át a package-eket. Alapvetően az összes tesztfájlt az adott osztály mellé rakunk mint a példa Time osztály esetében volt. (Persze ettől eltérnek sok esetben a feladat kiírók, néhol csak a TestSuite lesz a névtelen package-ben, néha más is... Nem hiba, ha mindent beleraksz a package-be.)
+* Valamelyik osztály vagy package neve el van írva.
+* A Java verziónak legalább 17-esnek kell lennie (`javac --version`).
+
