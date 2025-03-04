@@ -35,4 +35,18 @@ public class FibonacciTest {
 
         assertEquals(fTrd, fFst + fSnd);
     }
+    
+    @ParameterizedTest(name = "fib({0}) = {1}")
+    @CsvSource(textBlock = """
+        1, 1
+        2, 1
+        3, 2
+        4, 3
+        5, 5
+        6, 8
+    """)
+    @DisableIfHasBadStructure
+    public void testParameterizedValues(int index, int value) {
+        assertEquals(value, Fibonacci.fib(index));
+    }
 }
