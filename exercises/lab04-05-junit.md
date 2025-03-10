@@ -151,6 +151,14 @@ A fentieket a következő módokon lehet bővíteni.
 -   A `wrongInput` teszt kerüljön át az `AdderInvalidTest.java` fájlba.
     Egy test suite hívja meg mindkét osztályt.
 
+## Beadandó házi feladat (határidő: 2025. 03. 16. 23:59)
+
+### feladat
+
+Hozzon létre egy `math.Adder` osztályt, amelynek az `add(...)` metódusa legyen példány nélkül hívható és a paraméterként kapott `int` tömb elemeit adja össze és térjen vele vissza. Írjon hozzá megfelelő elnevezésű funkciónális tesztelőosztályt, amelyben tesztelje különböző esetekre (0, 1, 2, több elemű tömbökre, negatív értékekre...).
+Feltöltendő a törzskönyvtár `zip` fájlba tömörítve `.class` osztályok nélkül (checkthat fájljai és jar fájlok szintén nem tömörítendőek).
+
+Feltöltési hely: Canvas, 4. microZH-hoz tartozó órai munka értékelése
 
 ## Gyakorló feladatok
 
