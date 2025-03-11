@@ -219,8 +219,5 @@ Bővítse a unit teszteket negatív kitevő helyességét ellenőrző esetekkel.
 * Első paraméter fájl , tehát `'/'` karakter legyen benne, a második minősített név, így `'.'` legyen benne.
 * Rossz package-be vannak rakva. Ha a tesztfájl rosszul van package-elve, nyugodtan írd át a package-eket. Alapvetően az összes tesztfájlt az adott osztály mellé rakunk mint a példa Time osztály esetében volt. (Persze ettől eltérnek sok esetben a feladat kiírók, néhol csak a TestSuite lesz a névtelen package-ben, néha más is... Nem hiba, ha mindent beleraksz a package-be.)
 * Valamelyik osztály vagy package neve el van írva.
-* A Java verziónak legalább 21-esnek kell lennie (`javac --version`). Benti géptermi gépeken Linux alatt a következő paranccsal lehet elérni, hogy a gép a jó Java verziót is lássa:
-  ```
-  export PATH=/usr/bin:$PATH
-  ```
+* A Java verziónak legalább 21-esnek kell lennie (`javac --version`). Benti géptermi gépeken Linux alatt jelenleg nem ismert, hogy hogyan futtatható. Ezért ezt most kerüljük.
 
