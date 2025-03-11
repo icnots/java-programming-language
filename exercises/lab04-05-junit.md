@@ -38,7 +38,7 @@ Structure tesztek és TestSuite fájlok megtalálhatóak itt: [Teszt könyvtár]
 
 ### 1. feladat
 
-Készítsünk [háromszögszámokat](https://hu.wikipedia.org/wiki/H%C3%A1romsz%C3%B6gsz%C3%A1mok) kiszámító `static famous.sequence.TriangularNumbers.getTriangularNumber()` metódust.
+Készítsünk [háromszögszámokat](https://hu.wikipedia.org/wiki/H%C3%A1romsz%C3%B6gsz%C3%A1mok) kiszámító `static famous.sequence.TriangularNumbers.getTriangularNumber()` metódust. (Az n. háromszögszám 1-től n-ig a számok összege.)
 
 -   A tesztelő kód a `famous.sequence.TriangularNumbersTest` osztályba kerüljön.
 -   Ehhez is jár mellékelt strukturális tesztelő és suite is, ezeknek is rendben le kell futniuk.
