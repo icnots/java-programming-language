@@ -94,8 +94,7 @@ Ezeket a fájlokat bővítsük az alábbi tesztekkel.
     - A rajongónak, a rajongó művészének, és a rajongó művésze kiadójának a neve megfelelő kell, hogy legyen.
     - A rajongó létrehozás után közvetlenül még nem költött el pénzt.
 
-A funkcionális tesztelőben az alábbi tesztek érhetők el a `Fan` osztályhoz.
-Itt a feladat a megvalósítás elkészítése.
+A funkcionális tesztelő elérhető a `Fan` osztályhoz (A `FanTest.java`, `ArtistTest.java`, `RecordLabelTest.java` forrásfájlok a tesztfájlok közt!). Ennek kellene helyesen futnia. Tehát itt a feladat a megvalósítás elkészítése úgy, hogy funkcionálisan helyes legyen.
 
 - `buyMerchandise()` kiszámítja a rajongó által vásárolt termék árát.
     - A rajongó természetesen csak a kedvenc művészétől vesz termékeket.
