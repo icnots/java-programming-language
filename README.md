@@ -26,3 +26,8 @@
   * Java Unittesztelés
   * `CheckThat` környezet használata
 
+* [6. gyakorlat](exercises/lab06-array-enum-memmap.md)
+  * Tömbkezelés,
+  * `enum`,
+  * memóriatérkép
+
