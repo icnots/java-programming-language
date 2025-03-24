@@ -1,5 +1,34 @@
 # 6. gyakorlat feladatok
 
+## Feladatok
+
+### Demo feladat
+
+Rajzoljunk memóriatérképet a következő kódhoz a megjelölt részeken!
+
+~~~{.java}
+class Foo {
+    private int x;
+
+    public Foo(int initX) {
+        x = initX;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        int counter = 10;       // (1)
+
+        Foo obj;                // (2)
+        obj = new Foo(5);       // (3)
+
+        Foo obj2 = new Foo(7);  // (4)
+        obj2 = obj;             // (5)
+
+        // ...
+    }
+}
+~~~
 
 ### 1. feladat
 
