@@ -31,3 +31,7 @@
   * `enum`,
   * memóriatérkép
 
+* [7. gyakorlat](exercises/lab07-io-exception.md)
+  * Fájlkezelés,
+  * kivételkezelés
+
