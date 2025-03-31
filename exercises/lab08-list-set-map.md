@@ -76,7 +76,7 @@ A következő bemenetek tesztelendők.
 - három szöveget tartalmazó lista: `can, you, succeed`, erre az elvárt kimenet `you, can, succeed`
 - három szöveget tartalmazó lista: `-123, 2000, 100`, erre az elvárt kimenet `2000, 100, -123`
 
-### 4. feladat
+### 4. feladat (beadandó)
 
 A `CharacterStatisticsStructureTest` osztály alapján dolgozzunk.
 
