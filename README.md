@@ -35,3 +35,6 @@
   * Fájlkezelés,
   * kivételkezelés
 
+* [8. gyakorlat](exercises/lab08-list-set-map.md)
+  * `List` adatszerkezet,
+  * `Set`, `Map` adatszerkezetek.
