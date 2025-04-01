@@ -2,6 +2,11 @@
 
 Segítségként a [Java 21 dokumentációja](https://docs.oracle.com/en/java/javase/21/docs/api/index.html).
 
+### Rövid demó
+
+Írj egy programot, amely a parancssori paramétereket belehelyezi egy `HashSet` típusba és utána kiírja, hogy milyen elemek vannak.
+Ugyanolyan elemek esetén ekkor csak egyszer fog belekerülni az adott elem. Írd ki a `System.out.println` metódussal a halmazod elemeit.
+
 ### 1. demó
 
 Készítsük el a `WorkerScheduleStructureTest` szerint a megadott osztályt.
