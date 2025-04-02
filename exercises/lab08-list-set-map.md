@@ -79,7 +79,7 @@ A következő bemenetek tesztelendők.
 - üres lista
 - egyelemű lista
 - három szöveget tartalmazó lista: `can, you, succeed`, erre az elvárt kimenet `you, can, succeed`
-- három szöveget tartalmazó lista: `-123, 2000, 100`, erre az elvárt kimenet `2000, 100, -123`
+- három szöveget tartalmazó lista: `-123, 2000, 100`, erre az elvárt kimenet `2000, -123, 100`
 
 ### 4. feladat (beadandó)
 
