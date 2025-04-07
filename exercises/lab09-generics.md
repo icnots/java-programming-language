@@ -1,5 +1,7 @@
 # 9. gyakorlat
 
+* [Java 21 Docs](https://docs.oracle.com/en/java/javase/21/docs/api/index.html)
+
 ## Feladatok
 
 ### 1. feladat
@@ -8,7 +10,7 @@ Készítsen a `MultiSetStructureTest` szerint olyan osztályt, amely `E` típus�
 Ennek adattagja leírja, hogy milyen elemből hány darab van a halmazban.
 Ezt az adatszerkezetet zsáknak (bag) is szokták nevezni.
 
-Az osztály konstruktora a paraméterül kapott elemekkel tölti fel kezdetben a zsákot.
+Az osztály konstruktora a paraméterül kapott elemekkel tölti fel kezdetben a zsákot. Mivel vararg-ot vár paraméterül (`E... elems`), ezért fordításkor warning-ot dob a fordítóprogram. Használjuk a `@SafeVarargs` annotációt.
 
 Elemeket az `add()` művelettel adhatunk a zsákhoz.
 Ha az elem még nem volt benne a zsákban, kerüljön bele `1` multiplictással,
@@ -22,7 +24,9 @@ Az `intersect()` két zsák metszetét állítja elő.
 Ebben azok az elemek lesznek benne, amelyek mindkettőben megtalálhatóak, ennek a multiplicitása a kisebbik.
 A metódus egyik eredeti zsákot se változtassa meg, az eredmény egy új `MultiSet` objektum legyen.
 
-A `countExcept()` megadja a zsákban található összes elem darabszámát (multiplicitással együtt), de a paraméter elemeit nem veszi figyelembe.
+A `countExcept()` megadja a zsákban található összes elem darabszámát (multiplicitással együtt), de a paraméter elemeit nem veszi figyelembe. (Ez a metódus valamiért hiányzik a `MultiSetStructureTest`-ből... Legyen akkor `public int countExcept(E elem)` a szignatúrája.)
+
+A `size()` metódus összeszámolja a zsákban található összes elemet (összeadja a darabszámokat).
 
 A következő módon tesztelendő:
 
@@ -64,11 +68,13 @@ A `runSwaps()` sorban végrehajtja a `swaps` listában leírt cseréket.
 
 -   Az egyes cserék végrehajtásához a `swap()` hívandó meg.
 
-Az osztály szöveges reprezentációja ilyen alakú legyen: `[1 3 5 7 9 ]` vagy `[d a c b e ]`.
+Az osztály szöveges reprezentációja ilyen alakú legyen: `[1 3 5 7 9 ]` vagy `[d a c b e ]`. **Erre utal a *textual representation* utalás a structure testben.**
 
-### 3. feladat
+Írj kétféle paraméterezéssel tesztesetet (`Integer` és `char`). Állítsd elő a `[4 2 1 3 5 ]` és `[d a c b e ]` szöveges reprezentációjú `Organiser` struktúrát.
 
-A `RangedStackSuite` alapján készítsünk vermet ábrázoló osztályt, amelybe egyszerre több elem tehető be/vehető ki.
+### 3. feladat (beadandó)
+
+A `RangedStackStructureTest` alapján készítsünk vermet ábrázoló osztályt, amelybe egyszerre több elem tehető be/vehető ki. (Sajnos a `RangedStackSuite` osztály rosszul van összerakva a tesztek között!)
 
 Lehessen üresen is elkészíteni, és másoló konstruktorral is.
 Ez utóbbi egy másik `RangedStack` példányhoz hasonló tartalmú vermet készít el, de az adattagjaik ne egy közös listára mutassanak (aliasing).
