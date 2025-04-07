@@ -36,6 +36,9 @@
   * kivételkezelés
 
 * [8. gyakorlat](exercises/lab08-list-set-map.md)
-  * generic típusok
-  * `List` adatszerkezet,
-  * `Set`, `Map` adatszerkezetek.
+  * generic típusok használata
+  * `List`, `Set`, `Map` adatszerkezetek.
+  
+* [9. gyakorlat](exercises/lab09-generics.md)
+  * generic típusok létrehozása
+  
