@@ -24,7 +24,7 @@ Az `intersect()` két zsák metszetét állítja elő.
 Ebben azok az elemek lesznek benne, amelyek mindkettőben megtalálhatóak, ennek a multiplicitása a kisebbik.
 A metódus egyik eredeti zsákot se változtassa meg, az eredmény egy új `MultiSet` objektum legyen.
 
-A `countExcept()` megadja a zsákban található összes elem darabszámát (multiplicitással együtt), de a paraméter elemeit nem veszi figyelembe. (Ez a metódus valamiért hiányzik a `MultiSetStructureTest`-ből... Legyen akkor `public int countExcept(E elem)` a szignatúrája.)
+A `countExcept()` megadja a zsákban található összes elem darabszámát (multiplicitással együtt), de a paraméter elemeit nem veszi figyelembe. (Ez a metódus valamiért hiányzik a `MultiSetStructureTest`-ből... Legyen akkor `public int countExcept(Set<E> notCounted)` a szignatúrája.)
 
 A `size()` metódus összeszámolja a zsákban található összes elemet (összeadja a darabszámokat).
 
