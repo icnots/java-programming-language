@@ -79,6 +79,13 @@ A `RangedStackStructureTest` alapján készítsünk vermet ábrázoló osztályt
 Lehessen üresen is elkészíteni, és másoló konstruktorral is.
 Ez utóbbi egy másik `RangedStack` példányhoz hasonló tartalmú vermet készít el, de az adattagjaik ne egy közös listára mutassanak (aliasing).
 
+A `push` metódus implementálásakor használd a `@SuppressWarnings("unchecked")` annotációt a következő módon:
+```
+    public void push(@SuppressWarnings("unchecked") E... elems) {
+        .....
+    }
+```
+
 A következő módon tesztelendő.
 
 - `empty`: készüljön el egy üres `RangedStack` és egy másolata
