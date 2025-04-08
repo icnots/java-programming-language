@@ -81,7 +81,8 @@ Ez utóbbi egy másik `RangedStack` példányhoz hasonló tartalmú vermet kész
 
 A `push` metódus implementálásakor használd a `@SuppressWarnings("unchecked")` annotációt a következő módon:
 ```
-    public void push(@SuppressWarnings("unchecked") E... elems) {
+    @SuppressWarnings("unchecked") 
+    public void push(E... elems) {
         .....
     }
 ```
