@@ -42,3 +42,5 @@
 * [9. gyakorlat](exercises/lab09-generics.md)
   * generic típusok létrehozása
   
+* [10. gyakorlat](exercises/lab10-inheritance.md)
+  * Öröklődés 
