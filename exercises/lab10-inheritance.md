@@ -1,5 +1,7 @@
 # 10. gyakorlat
 
+* [Java 21 Docs](https://docs.oracle.com/en/java/javase/21/docs/api/index.html)
+
 ## Feladatok
 
 ### 1. feladat
