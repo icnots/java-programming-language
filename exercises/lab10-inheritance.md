@@ -102,6 +102,15 @@ Ha `EBook` vagy érvénytelen adatú könyv érkezne, a helyére egy `DamagedBoo
 
 A mentést és töltést próbáljuk ki üres listával, egyetlen (alapértelmezett adatokkal elkészített) könyves listával, és egy mindenfélet (`EBook` és `PrintedBook` könyvet egyaránt tartalmazó) listával.
 
+* **Ismert problémák a feladattal:**
+  * A structure testek nem a névtelen package-ben vannak, de nem is az adott osztály mellett, hanem egy harmadikban. => Inkonzisztencia.
+  * A structure testek  (`PrintedBook` és `EBook`) nem kérik a `Book` osztályból való öröklődést, csak a `DamagedBook` structure testje kéri) Nem szeretnénk majd Book referenciaként hivatkozni az altípusokra?
+  * Nem derül ki, hogy a `BookCollection` milyen módon kap adatokat, amelyeket közben jól kellene kiírnia, de `DamagedBook`-ként kellene kezelnie.
+  * `initBook`-ot mindkét konstruktornál meg kellene hívni a feladat szövege szerint, míg a structure test azt kéri, hogy hívjon át a másik konstruktorra a paraméter nélküli.
+  * `Book` példányt kap az `EBook` (és a `PrintedBook`), az eredeti cél az volt, hogy getterekkel hívjuk meg az ősosztály konstruktorát? Vagy írjunk copy constructort is a `Book`-hoz? Vagy legyen egy `Book` típusú adattagunk? (De közben leszármazás ne legyen???)
+  * A `createReference` metódus implementációját elvárja a structure test, de nincs róla információ, hogy mi a csudát csináljon (ekkor bármit csinálhat, ugye?).
+  * A feladat szövege `IllegalArgumentException` kiváltását kéri, a tesztnél viszont a saját `InvalidBookException` kivétel ellenőrzését kéri.
+
 ### 2. feladat
 
 Készítsünk `StuffyList` adatszerkezetet a megadott struktúra szerint.
