@@ -43,4 +43,8 @@
   * generic típusok létrehozása
   
 * [10. gyakorlat](exercises/lab10-inheritance.md)
-  * Öröklődés 
+  * Öröklődés
+  
+* [11. gyakorlat](exercises/lab11-interface-equals.md)
+  * `interface`-ek
+  * `equals` metódus
