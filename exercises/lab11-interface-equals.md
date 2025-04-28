@@ -2,6 +2,17 @@
 
 * [Java 21 Docs](https://docs.oracle.com/en/java/javase/21/docs/api/index.html)
 
+## Demo feladat
+
+Hozz létre egy `Animal` nevű interface-t, amely két dolgot követel meg:
+  * Legyen egy `shout` metódusa,
+  * Legyen egy `step` metódusa.
+Legyen két `Animal`-t megvalósító osztály: `Dog` és `Cat`. Ezek mindegyik úgy implementálja a megkövetelt metódusokat, hogy kiír a képernyőre egy ehhez hasonló feliratot:
+`Dog is shouting` vagy `Step is made by a cat`. (Itt helyettesítsd a cat és dog szavakat megfelelően.)
+Készíts főprogramot, amely a létrehoz egy `List` típust `Animal` típusból, majd rakj bele 2-2-t a kétféle osztályodból és iterálj rajta végig a két metódust meghívva.
+
+> Itt engedélyezett, hogy egy fájlba készítsd a megoldást a példa bemutatása érdekében.
+
 ## Feladatok
 
 ### 1. feladat
