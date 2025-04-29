@@ -7,9 +7,11 @@
 Hozz létre egy `Animal` nevű interface-t, amely két dolgot követel meg:
   * Legyen egy `shout` metódusa,
   * Legyen egy `step` metódusa.
+  
 Legyen két `Animal`-t megvalósító osztály: `Dog` és `Cat`. Ezek mindegyik úgy implementálja a megkövetelt metódusokat, hogy kiír a képernyőre egy ehhez hasonló feliratot:
 `Dog is shouting` vagy `Step is made by a cat`. (Itt helyettesítsd a cat és dog szavakat megfelelően.)
 Készíts főprogramot, amely a létrehoz egy `List` típust `Animal` típusból, majd rakj bele 2-2-t a kétféle osztályodból és iterálj rajta végig a két metódust meghívva.
+Készítsük el az `equals` metódust (akkor legyen true a visszatérési érték, ha ugyanaz az osztály típusa) és a `hashCode`-ot is. Itt használjuk a `java.util.Objects` osztály `hash` metódusát.
 
 > Itt engedélyezett, hogy egy fájlba készítsd a megoldást a példa bemutatása érdekében.
 
