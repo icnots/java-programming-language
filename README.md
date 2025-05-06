@@ -49,7 +49,7 @@
   * `interface`-ek
   * `equals` metódus
   
-* [12. gyakorlat](lab12-equals-Comparator-iterator.md)
+* [12. gyakorlat](exercises/lab12-equals-Comparator-iterator.md)
   * `equals`-ek
   * `Comparator` metódus
   * `iterator` metódus
