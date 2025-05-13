@@ -54,3 +54,5 @@
   * `Comparator` metódus
   * `iterator` metódus
 
+* [13. gyakorlat](exercises/zh-minta-Rental.md)
+  * Minta ZH megoldása
