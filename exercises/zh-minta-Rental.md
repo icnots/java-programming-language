@@ -37,7 +37,7 @@ A `rental.Car` osztály egy autót reprezentál.
     2. Amennyiben minden megfelelő, akkor létrehozza és visszaadja a paramétereknek megfelelő `Car` típusú objektumot. Különben `null`-t adjon vissza a metódus.
         -   *Tipp*: a metódusban használható a `Character` osztály [`isLetter()`][isletter] metódusa.
 
-- A `decreasePrice` metódus az aktuális autó kölcsönzési díját `10`-zel csökkenti, ha az eredeti kölcsönzési díj `10`-nél nagyobb, feltéve, hogy nem egyezik meg a maximális kölcsönzési díjjal.
+- A `decreasePrice` metódus az aktuális autó kölcsönzési díját `10`-zel csökkenti, ha az eredeti kölcsönzési díj `10`-nél nagyobb, feltéve, hogy nem egyezik meg a maximális kölcsönzési díjjal. (Tehát a maximális kölcsönzési díjú autóknál megmarad az ár.)
 
 - Az `isCheaperThan` metódus eldönti, hogy az aktuális autó kölcsönzési díja alacsonyabb-e a paraméterben kapott autó kölcsönzési díjánál.
 
