@@ -9,8 +9,9 @@ pandoc --strip-comments zh-minta-Rental.md -H stilus5.css -o for-students/zh-min
 
 ## Tesztelés
 
-A feladathoz meg vannak adva strukturális és funkcionális JUnit 5 tesztelők, utóbbiból a `CarRental` osztályhoz három érhető el.
+A feladathoz [itt](rental_files/) vannak megadva strukturális és funkcionális JUnit 5 tesztelők, utóbbiból a `CarRental` osztályhoz három érhető el.
 A megoldásokat ezek alapján kell elkészíteni, és a feladatrészek teljesítettségének előfeltétele, hogy a tesztelő kódok helyes eredménnyel fussanak le.
+A `Time` osztály példa funkcionális tesztje [itt](../tests/time/TimeTest.java) érhető el.
 
 ## A feladat összefoglaló leírása
 
