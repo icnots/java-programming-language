@@ -43,7 +43,8 @@ A `rental.Car` osztály egy autót reprezentál.
 
 - Az autók szöveges reprezentációja a `CarTest`ben leírtakat kövesse.
     -   *Tipp*: `"format text goes here".formatted(...)` alakú kifejezést célszerű használni. Ennek leírását [lásd itt][fmtstring].
-        -   Az árat egy tizedesjegy pontossággal, öt karakter szélesen jelenítse meg.
+        - Az árat egy tizedesjegy pontossággal, öt karakter szélesen jelenítse meg.
+        - Pl. : `"price of %s is %.1f".formatted(stringName, doubleVariable);` egy tizedesjegyre kerekíti a `doubleVariable` értékét.
     -   Pl. `Volvo (JSD 856) 500,0 EUR`, `BMW (ABC 123)  40,0 EUR`, `Alfa Romeo (DEF 234)   9,0 EUR`.
 
 ### `CarRental`, 1. rész
