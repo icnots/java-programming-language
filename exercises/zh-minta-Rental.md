@@ -1,11 +1,5 @@
 ---
-title: Minta zárthelyi
-...
-
-<!--
-Compile as:
-pandoc --strip-comments zh-minta-Rental.md -H stilus5.css -o for-students/zh-minta-Rental.html
--->
+# Minta zárthelyi
 
 ## Tesztelés
 
