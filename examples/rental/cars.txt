@@ -1,0 +1,21 @@
+BMW:ABC 123,50.0
+Alfa Romeo:DEF 234,9.0
+Toyota:GHI 456,500.0
+
+BadInput:BadInput,
+BadInput:,BadInput
+:BadInput,BadInput
+:BadInput,
+:,BadInput
+
+A:ABC 123,500.0
+BMW:ABC 123,-500.0
+BMW:ABC 123,0.0
+BMW:ABC 123,503.0
+BM,W:ABC 123,50.0
+BMW:ABC 12,50.0
+BMW:ABC 1234,50.0
+BMW:AbC 123,50.0
+BMW:ABC D23,50.0
+
+Volvo:JSD 856,500.0
